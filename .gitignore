@@ -1,0 +1,11 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pt
+*.mlpackage/
+recordings/
+*.mp4
+*.mov
+.DS_Store
+.env
