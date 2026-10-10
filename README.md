@@ -1,7 +1,7 @@
-# Sprint Start
+# Block Trainer
 ### Practice your start. Review your technique.
 
-Sprint Start helps sprinters practice block starts independently, using movement-responsive starting commands, live shin-angle estimates, and video recordings for review.
+Block Trainer helps sprinters practice block starts independently, using movement-responsive starting commands, live shin-angle estimates, and video recordings for review.
 
 ## Why the Block Start Matters
 
@@ -11,7 +11,7 @@ Sprint Start responds to your movements to guide you through “On your marks,�
 
 ## Current Features
 
-- **Movement-responsive commands:** Progress through the starting sequence based on your position and stillness.
+- **Movement-responsive commands:** Progress through the starting sequence based on your position and stillness, checking to make sure you don't jump the gun. 
 - **Live shin angles:** View estimated left and right shin angles during your start.
 - **Automatic recording:** Capture a 15-second video beginning at the “Set” call.
 - **Video review:** Replay your start to examine your positioning and movement.
