@@ -36,3 +36,22 @@ Live feedback gives you an immediate view of your shin angles. The saved recordi
 - Reaction-time estimates
 
 These features are in development and are not yet available.
+
+## Analyze a saved video
+
+Run the separate video analyzer from the repository folder:
+
+```bash
+python code/upload.py Small10-4.mp4
+```
+
+Omit the video path to choose a file in a dialog. Use `--model /path/to/weights.pt`
+for existing YOLO pose weights, or `--device mps` to request Apple GPU processing.
+The default model is `yolo26m-pose.pt`; Ultralytics may download it on first use.
+
+The program saves a silent annotated MP4 and a CSV of per-frame left/right shin
+angles under `recordings/`. It preserves the input frame rate and leaves the
+original video untouched. Choose a new filename with `--output recordings/attempt2.mp4`
+when repeating an analysis. Missing or uncertain joints produce blank CSV values
+and `--` on screen; frames containing multiple people are not measured.
+Angles are measured relative to image horizontal, so use a level, side-on camera.
